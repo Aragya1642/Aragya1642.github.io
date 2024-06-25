@@ -8,17 +8,47 @@
 <!DOCTYPE html>
 <html>
 
-<style>
-    body {
-        background-color: rgb(247, 245, 245);
-    }
+<head>
+    <style>
+        body {
+            background-color: rgb(247, 245, 245);
+        }
+    
+        h1 {
+            color: rgb(42, 44, 36);
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
 
-    h1 {
-        color: rgb(42, 44, 36);
-        text-align: center;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
-</style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(42, 44, 36);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(146, 20, 12);
+        }
+    </style>
+</head>
 
 <body>
     <header>
@@ -27,11 +57,13 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pages/projects.html">Projects</a></li>
                 <li><a href="pages/blogs.html">Blogs</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
             </ul>
         </nav>
+        <h1>aragya goyal</h1>
     </header>
 
-    <h1>aragya goyal</h1>
+    
     <p>Junior Computer Engineering Student at the University of Pittsburgh</p>
 
 </body>
