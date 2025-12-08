@@ -4687,3 +4687,20 @@ input, select, textarea {
 		}
 
 	}
+
+	.resp-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 839px;   /* You can adjust this */
+    margin: 2rem 0;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
