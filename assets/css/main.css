@@ -4688,19 +4688,44 @@ input, select, textarea {
 
 	}
 
-	.resp-container {
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    height: 839px;   /* You can adjust this */
-    margin: 2rem 0;
+	.img-box {
+	width: 100%;
 	}
 
-	.resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+	.img-box img {
+	width: 100%;
+	height: auto;       /* preserves aspect ratio */
+	display: block;
+	}
+
+	.video-container {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;  /* 16:9 ratio */
+	margin: 2rem 0;
+	}
+
+	.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	}
+
+	.slides-container {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;  /* 16:9 aspect ratio */
+	margin: 2rem 0;
+	}
+
+	.slides-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 	}
