@@ -44,7 +44,7 @@
 							<section>
 								<!-- Image -->
 									<h2>Bio</h2>
-									<p><span class="image left"><img src="images/aragya.webp" alt="" /></span>Born in India, my family permanently moved to the United States in 4th grade to pursue the American Dream. I found my passion in robotics and automation in freshman year of high school through the VEX and FIRST programs. I decided to continue my studies to become a computer engineer at the University of Pittsburgh focusing on projects that excited me. This has led me to work on a diverse range of projects including rovers, underwater snake robots, and racecars. I currently work as a robotics developer co-op student at Estat Actuation as well as do research at the Carnegie Mellon University Robotics Institute.</p>
+									<p><span class="image left"><img src="images/aragya.webp" alt="" /></span>Born in India, my family permanently moved to the United States in 4th grade to pursue the American Dream. I found my passion in robotics and automation in freshman year of high school through the VEX and FIRST programs. I decided to continue my studies to become a computer engineer at the University of Pittsburgh focusing on projects that excited me. This has led me to work on a diverse range of projects including rovers, underwater snake robots, and racecars. I currently work do research at the Carnegie Mellon University Robotics Institute under Dr. David Wettergreen.</p>
 
 									<p><span class="image right"><img src="images/aragya2.jpg" alt="" /></span>Outside of my engineering pursuits, I have a deep passion for the outdoors and traveling. As an Eagle Scout, I have cultivated a strong appreciation for nature and adventure, which has instilled in me a love for camping, hiking, and exploring the great outdoors. These experiences have not only enhanced my skills in navigation and survival but also fostered a sense of teamwork and leadership.
 
@@ -91,6 +91,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+			document.querySelectorAll('a[href^="http"]').forEach(a => {
+				a.setAttribute('target', '_blank');
+				a.setAttribute('rel', 'noopener noreferrer');
+			});
+			</script>
 	</body>
 </html>

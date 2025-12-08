@@ -16,7 +16,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Aragya Goyal</a>
+						<a href="bio.html" class="logo">Aragya Goyal</a>
 					</header>
 
 				<!-- Nav -->
@@ -84,6 +84,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+			document.querySelectorAll('a[href^="http"]').forEach(a => {
+				a.setAttribute('target', '_blank');
+				a.setAttribute('rel', 'noopener noreferrer');
+			});
+			</script>
 	</body>
 </html>
